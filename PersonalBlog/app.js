@@ -46,9 +46,9 @@ const posts = [
 ];
 
 app.get(`/bacheca`, (req, res) => {
-    app.json({ posts });
+    res.json({ posts });
 });
 
 app.listen(port, () => {
-    console.log(`Il server è in ascolto sulla porta ` + port);
+    console.log(`Il server avviato http://localhost:${port}`);
 })
