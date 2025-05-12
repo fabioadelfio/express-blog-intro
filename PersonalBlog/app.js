@@ -43,7 +43,11 @@ const posts = [
         immagine: `/img/torta_paesana.jpeg`,
         tags: [`torta`, `dolce`, `paese`],
     }
-]
+];
+
+app.get(`/bacheca`, (req, res) => {
+    app.json({ posts });
+});
 
 app.listen(port, () => {
     console.log(`Il server è in ascolto sulla porta ` + port);
