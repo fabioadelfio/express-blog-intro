@@ -50,5 +50,5 @@ app.get(`/bacheca`, (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Il server avviato http://localhost:${port}`);
+    console.log(`Server avviato su http://localhost:${port}`);
 })
