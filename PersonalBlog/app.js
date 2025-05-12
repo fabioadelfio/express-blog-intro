@@ -12,35 +12,35 @@ const posts = [
     {
         titolo: `Ciambellone`,
         contenuto: `Ricetta ciambellone`,
-        immagine: `/img/ciambellone.jpeg`,
+        immagine: `/ciambellone.jpeg`,
         tags: [`ciambellone`, `dolce`],
     },
 
     {
         titolo: `Cracker Barbabietola`,
         contenuto: `Ricetta cracker barbabietola`,
-        immagine: `/img/cracker_barbabietola.jpeg`,
+        immagine: `/cracker_barbabietola.jpeg`,
         tags: [`cracker`, `barbabietola`],
     },
 
     {
         titolo: `Pane Fritto Dolce`,
         contenuto: `Ricetta pane fritto dolce`,
-        immagine: `/img/pane_fritto_dolce.jpeg`,
+        immagine: `/pane_fritto_dolce.jpeg`,
         tags: [`pane`, `fritto`, `dolce`],
     },
 
     {
         titolo: `Pasta Barbabietola`,
         contenuto: `Ricetta pasta barbabietola`,
-        immagine: `/img/pasta_barbabietola.jpeg`,
+        immagine: `/pasta_barbabietola.jpeg`,
         tags: [`pasta`, `barbabietola`],
     },
 
     {
         titolo: `Torta Paesana`,
         contenuto: `Ricetta torta paesana`,
-        immagine: `/img/torta_paesana.jpeg`,
+        immagine: `/torta_paesana.jpeg`,
         tags: [`torta`, `dolce`, `paese`],
     }
 ];
